@@ -1,0 +1,33 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: tzaman.dev
+theme: ["PaperMod"]
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  homeInfoParams:
+    Title: 👋 Hey there! I'm Tahmid.
+    Content: >
+      I'm a software engineer excited about low-level systems.
+      <br>
+      Currently, I'm working at [AWS](https://aws.amazon.com/) improving latency observability under [Elastic Block Store](https://aws.amazon.com/ebs/).
+      <br>
+      Previously, I worked at [Stripe](https://stripe.com/) automating build file management and improving developer experience.
+
+  socialIcons:
+    - name: github
+      title: Personal Github
+      url: https://github.com/tahmid-23/
+    - name: linkedin
+      title: LinkedIn
+      url: https://www.linkedin.com/in/tahmidz/
+    - name: discord
+      title: Discord
+      url: https://discord.gg/DM5usVMz/
+
+  mainSections:
+    - posts
