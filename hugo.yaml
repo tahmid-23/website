@@ -25,9 +25,6 @@ params:
     - name: linkedin
       title: LinkedIn
       url: https://www.linkedin.com/in/tahmidz/
-    - name: discord
-      title: Discord
-      url: https://discord.gg/DM5usVMz
 
   mainSections:
     - posts
